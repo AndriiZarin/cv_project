@@ -1,7 +1,7 @@
 # cv_project
 A simple project for  creating, viewing, and editing CVs.
 
-Windows instructions:
+Instalation (windows):
 
 //----Install WSL2+Ubuntu 20.04
 
@@ -36,7 +36,9 @@ WSL route: \\wsl$\Ubuntu-20.04\home\<username>
 
   "proxy": "http://localhost:4000"
   
-//----Start Docker Desktop
+Run project
+  
+//----Start Docker
 
 //----Start docker mongo image(from root folder ("CV")) use makefile
 
