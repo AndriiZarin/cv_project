@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import { useLoadCVS, useStateCVS } from "../../contexts/CvContext";
-import { FullSpinner } from "../../styles/app";
+import { FullSpinner } from "../../styles/app.jsx";
 import Message from "../../components/Message";
-import { Card, Grid } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
 
 const UsersPage = () => {
   const [loading, setLoading] = useState(true);

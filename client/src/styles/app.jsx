@@ -23,6 +23,5 @@ export function FullSpinner() {
     >
       <Spinner aria-label="loading" />
     </div>
-    //todo
   );
 }

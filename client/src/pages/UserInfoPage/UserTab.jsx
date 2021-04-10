@@ -1,6 +1,6 @@
-import React, { lazy, Suspense, useState, useEffect, useCallback } from "react";
+import { lazy, Suspense, useState, useEffect, useCallback } from "react";
 import { Tab } from "semantic-ui-react";
-import { FullSpinner } from "../../styles/app";
+import { FullSpinner } from "../../styles/app.jsx";
 import api from "../../api";
 
 const SkillsPage = lazy(() => import("../SkillsPage/SkillsPage"));
