@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { Button, Form, Grid, Image, Icon } from "semantic-ui-react";
 import useAsync from "../hooks/useAsync";
-import { Spinner } from "../styles/app";
+import { Spinner } from "../styles/app.jsx";
 
 const fakeImg = "http://via.placeholder.com/130x130";
 const allowedTypes = ["image/jpeg", "image/png", "image/gif"];
